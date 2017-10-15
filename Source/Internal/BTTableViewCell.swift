@@ -41,6 +41,7 @@ class BTTableViewCell: UITableViewCell {
         self.contentView.backgroundColor = self.configuration.cellBackgroundColor
         self.selectionStyle = UITableViewCellSelectionStyle.none
         self.textLabel!.textColor = self.configuration.cellTextLabelColor
+//        self.textLabel!.highlightedTextColor = self.configuration.cellTextLabelColor
         self.textLabel!.font = self.configuration.cellTextLabelFont
         self.textLabel!.textAlignment = self.configuration.cellTextLabelAlignment
         if self.textLabel!.textAlignment == .center {
